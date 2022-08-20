@@ -5,16 +5,16 @@ public class Employee {
     private int departament;
     private double salary;
     private int id ;
-    private static int numberOfСycles = 1;
+    private static int numberOfСycle = 1;
 
 
-    public Employee(String lastName, String firstName, String middleName, int departament, double salary) {
+    public Employee(String firstName, String lastName,  String middleName, int departament, double salary) {
         this.lastName = lastName;
         this.firstName = firstName;
         this.middleName = middleName;
         this.departament = departament;
         this.salary = salary;
-        this.id = numberOfСycles++;
+        this.id = numberOfСycle++;
     }
 
     public int getId() {
